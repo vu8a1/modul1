@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab';
+}
+
+/* smartfon  */
+@media (min-width: 320px) and (max-width: 991px) {
+    body {
+      
+      margin: 0 auto;
+    }
+    
+.ust{
+    display: inline;
+    font-size: 10px;
+}
+.usst{
+    margin-top: 45.2px;
+    margin-left: 35px;
+}
+.clock{
+    margin-left: 11.65px;
+}
+.calendar{
+    margin-left: 11.65px;
+}
+.logo1{
+    width: 52.19px;
+    height: 30.75px;
+    margin-top: 36px;
+    margin-left: 35px;
+}
+h1{
+    font-size: 37px;
+    font-weight: 700;
+    margin-left: 35.47px;
+}
+#za8{
+    font-weight: 400;
+font-size: 10px;
+margin-left: 35.74px;
+margin-right: 126.86px;
+}
+.noroot{
+    margin-left: 201px;
+    width: 141.66px;
+height: 165.89px;
+}
+.rec{
+    background: #1E4681;
+border-radius: 2.32986px;
+width: 225.36px;
+height: 93.19px;
+margin-left: 38px;
+margin-top: 47.86px;
+padding: 8.97px 12.5px;
+}
+
+#rec{
+    font-weight: 400;
+font-size: 11px;
+color: white;
+}
+
+#rec1{
+    font-weight: 400;
+font-size: 10px;
+color: white;
+margin-left: 87px;
+margin-top: 7px;
+}
+h2{
+    width: 170.08px;
+height: 43.34px;
+font-size: 26px;
+margin-left: 36px;
+margin-top: 75px;
+}
+.kurs{
+    font-weight: 400;
+font-size: 12px;
+margin-left: 36px;
+margin-right: 30px;
+}
+.n1{
+    width: 146.32px;
+height: 146.78px;
+margin-left: 113.12px;
+margin-top: 56px;
+}
+.h3{
+    width: 69.9px;
+height: 18.17px;
+font-size: 12px;
+line-height: 130%;
+}
+.saat{
+    font-weight: 400;
+font-size: 10px;
+line-height: 130%;
+width: 86.89px;
+height: 18.5px;
+}
+#saatlar{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.c1 ,  .c3 {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 46px;
+}
+.c2 {
+    margin-left: 50px;
+    margin-top: 46px;
+}
+.format{
+    width: 310.8px;
+height: 43.34px;
+font-size: 26px;
+}
+.ber{
+    color: #1E4681;
+    font-size: 12px;
+line-height: 130%;
+
+height: 18.17px;
+}
+.ber1{
+    font-weight: 400;
+font-size: 10px;
+line-height: 130%;
+width: 180px;
+height: 48px;
+}
+.c4,.c5,.c6{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.list{
+    font-weight: 700;
+font-size: 26px;
+line-height: 101.38%;
+margin-left: 36px;
+
+}
+.list1{
+margin-left: 44px;
+font-size: 12px;
+line-height: 150%;
+}
+.prog{
+    margin-left: 36px;
+    
+    font-size: 26px;
+
+}
+.rectangle{
+    border: 1px solid grey;
+   /* width: 185.92px; */
+   width: 50%;
+    
+    margin-top: 24.6px ;
+    margin-left: 95px;
+    border-radius: 13.98px;
+    box-shadow: rgba(0, 0, 0, 0.25) ;
+}
+.rec-image{
+    width: 100%;
+}
+.rec-p{
+    width: 170.08px;
+height: 18.17px;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 14px;
+line-height: 130%;
+margin-left: 9.3px;
+}
+.rec-p1{
+    width: 170.08px;
+height: 29.36px;
+font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+margin-left: 8.9px;
+margin-top: 15px;
+}
+.gray{
+    
+height: 423px;
+background-color: #EFEFEF;
+
+}
+#kursh2{
+    width: 257px;
+height: 69px;
+font-size: 26px;
+margin-left: 36px;
+
+}
+.eka{
+    background: #FFFFFF;
+box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+border-radius: 13.9792px;
+width: 60%;
+
+margin-left: 36px;
+padding-top: 10px;
+}
+
+#ekap{
+    font-weight: 400;
+font-size: 10px;
+width: 70%;
+
+margin:19px 21px;
+}
+.ekaimg{
+    width: 80px;
+height: 84px;
+margin-top: 2px;
+margin-left: 21px;
+}
+#ekah3{
+    width: 164.49px;
+height: 32.73px;
+font-size: 14px;
+line-height: 101.38%;
+display: inline;
+
+}
+.blue{
+    background: #9DC9C8;
+    height: 363.46px;
+    padding-top: 1px;
+}
+#nah2{
+    width: 224px;
+height: 63px;
+font-size: 26px;
+line-height: 101.38%;
+
+}
+#nap1{
+    font-weight: 400;
+font-size: 12px;
+width: 79.22px;
+height: 14.91px;
+margin-left: 36px;
+}
+#nap2{
+    font-weight: 400;
+font-size: 37px;
+line-height: 101.38%;
+width: 224.13px;
+height: 84.34px;
+margin-left: 36px;
+}
+.dly{
+    display: flex;
+    justify-content: space-around;
+}
+#proe{
+    margin-left: 31px;
+}
+.nap33{
+    font-weight: 400;
+font-size: 12px;
+line-height: 101.38%;
+width: 137px;
+height: 14.91px;
+}
+.nap3{
+    width: 140px;
+height: 38px;
+font-weight: 400;
+font-size: 10px;
+line-height: 101.38%;
+}
+.black{
+    background-color: black;
+    height: 251px;
+
+}
+.endlogo{
+    width: 53.59px;
+height: 31.69px;
+margin-left: 37.85px;
+margin-top: 23px;
+
+}
+#social{
+    margin-left: 31px;
+}
+.social{
+    margin-left: 5px;
+}
+
+.tele , .email{
+    color: white;
+    display: inline;
+}
+
+#telep , #emaill{
+    margin-left: 36px;
+}
+#telep{
+    margin-top: 50px;
+}
+.tel , .mail{
+    width: 12.58px;
+height: 12.58px;
+}
+.tele , .email{
+    font-weight: 400;
+font-size: 12px;
+width: 125.35px;
+height: 18.64px;
+}
+.sinx{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+    width: 141px;
+height: 19px;
+color: white;
+margin-left: 38px;
+margin-top: 49px;
+}
+  } 
+  
+  /* tablet */
+  @media (min-width: 992px) and (max-width: 1279px) {
+    body {
+      width: 834px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* desktop */
+  @media (min-width: 1280px) {
+    body {
+      width: 1440px;
+      margin: 0 auto;
+    }
+  }
+
